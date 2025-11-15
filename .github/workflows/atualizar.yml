@@ -1,0 +1,35 @@
+name: Atualizar World News - diário
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # roda diariamente às 07:00 UTC (ajuste se quiser)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install deps
+        run: pip install feedparser
+
+      - name: Generate site
+        run: python gerar_noticias.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "worldnews-bot"
+          git config user.email "bot@worldnews.example"
+          git add index.html
+          git commit -m "Atualização automática de notícias" || echo "Sem alterações"
+          git push
