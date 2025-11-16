@@ -147,7 +147,8 @@
 </footer>
 
 <script>
-fetch("news.json")
+  fetch("noticias.json")
+
     .then(r => r.json())
     .then(data => {
         let container = document.getElementById("news-container");
