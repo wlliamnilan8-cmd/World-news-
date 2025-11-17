@@ -1,14 +1,27 @@
 import requests
 import json
 import os
+import sys
 
 API_KEY = os.getenv("NEWSAPI_KEY")
 
-url = f"https://newsapi.org/v2/top-headlines?language=pt&country=br&pageSize=200&apiKey={API_KEY}"
+if not API_KEY:
+    print("ERRO: A variável de ambiente NEWSAPI_KEY não foi encontrada.")
+    print("Configure sua API KEY nos Secrets do GitHub.")
+    sys.exit(1)
+
+url = (
+    "https://newsapi.org/v2/top-headlines?"
+    "language=pt&country=br&pageSize=200&apiKey=" + API_KEY
+)
 
 resp = requests.get(url)
-dados = resp.json()
 
+if resp.status_code != 200:
+    print("ERRO NA API:", resp.text)
+    sys.exit(1)
+
+dados = resp.json()
 artigos = dados.get("articles", [])
 
 noticias_formatadas = []
@@ -23,4 +36,4 @@ for a in artigos:
 with open("noticias.json", "w", encoding="utf-8") as arq:
     json.dump(noticias_formatadas, arq, ensure_ascii=False, indent=4)
 
-print("Arquivo noticias.json atualizado.")
+print("✔️ Arquivo noticias.json atualizado com", len(noticias_formatadas), "notícias.")
