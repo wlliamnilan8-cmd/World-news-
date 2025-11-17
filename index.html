@@ -3,165 +3,41 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>WORLD NEWS — Futurista Premium</title>
-
+<title>WORLD NEWS</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-
-<style>
-:root{
-  --bg-1:#06070a; --bg-2:#0f1230;
-  --glass: rgba(255,255,255,0.04);
-  --accent-a:#33c3ff; --accent-b:#8A4CFF;
-  --muted: #b7c8e6;
-}
-
-/* Base */
-*{box-sizing:border-box}
-html,body{height:100%}
-body{
-  margin:0;
-  font-family:"Inter",system-ui,Arial,sans-serif;
-  color:#e8f4ff;
-  background: radial-gradient(1200px 600px at 10% 10%, rgba(58,183,255,0.03), transparent 10%),
-              linear-gradient(180deg,var(--bg-1),var(--bg-2));
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-  overflow-y:scroll;
-}
-
-/* Header */
-.site-header{
-  position:sticky; top:0; z-index:60;
-  backdrop-filter: blur(8px) saturate(120%);
-  background: linear-gradient(180deg, rgba(8,10,16,0.6), rgba(8,10,16,0.35));
-  border-bottom:1px solid rgba(255,255,255,0.02);
-}
-.header-inner{
-  max-width:1200px; margin:0 auto; padding:12px 18px;
-  display:flex; align-items:center; gap:20px; justify-content:space-between;
-}
-.brand{display:flex; gap:12px; align-items:center}
-.logo{
-  width:52px; height:52px; border-radius:10px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
-  box-shadow: 0 8px 30px rgba(10,10,30,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
-  display:block; object-fit:contain; padding:6px;
-  filter: drop-shadow(0 8px 30px rgba(138,76,255,0.08));
-}
-.title{
-  font-weight:800; font-size:18px; letter-spacing:1px;
-  background: linear-gradient(90deg,var(--accent-a),var(--accent-b));
-  -webkit-background-clip:text; color:transparent;
-  text-shadow: 0 6px 24px rgba(58,183,255,0.03);
-}
-
-/* Nav */
-.main-nav{display:flex; gap:10px; align-items:center}
-.nav-link{
-  color:var(--muted); text-decoration:none; font-weight:600; font-size:14px;
-  padding:8px 12px; border-radius:10px; transition:all .16s;
-  background:transparent; border:1px solid rgba(255,255,255,0.02);
-}
-.nav-link:hover{ transform:translateY(-3px); color:#fff; background: linear-gradient(90deg, rgba(58,183,255,0.06), rgba(138,76,255,0.04)); box-shadow:0 8px 30px rgba(58,183,255,0.03) }
-.nav-link.active{ color:#fff; background:linear-gradient(90deg,var(--accent-a),var(--accent-b)); box-shadow:0 12px 40px rgba(138,76,255,0.10) }
-
-/* Container */
-.container{ max-width:1200px; margin:28px auto; padding:0 16px 60px; }
-
-/* HERO */
-.hero{
-  display:block; width:100%; border-radius:16px; overflow:hidden;
-  position:relative; height:420px; margin-bottom:22px;
-  border:1px solid rgba(255,255,255,0.03);
-  box-shadow: 0 20px 60px rgba(10,12,30,0.6);
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-}
-.hero-img{ width:100%; height:100%; object-fit:cover; display:block; filter:brightness(.55); transition: transform .6s ease; }
-.hero:hover .hero-img{ transform:scale(1.02) }
-.hero-overlay{
-  position:absolute; left:40px; bottom:36px; color:#e9f6ff; max-width:62%;
-}
-.hero-category{ font-size:13px; color:var(--muted); margin-bottom:8px }
-.hero-title{ font-size:34px; line-height:1.03; margin:0 0 12px; font-weight:800; color:linear-gradient(transparent,transparent) }
-.hero-desc{ color:rgba(230,245,255,0.9); font-size:16px; max-height:5.0em; overflow:hidden; text-overflow:ellipsis }
-
-/* GRID */
-.grid{ display:grid; gap:18px; grid-template-columns: 1fr 360px; align-items:start; }
-
-/* Left: cards grid */
-.left-column{ display:grid; gap:18px; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); }
-
-/* Right: sidebar */
-.sidebar{ padding:12px; display:flex; flex-direction:column; gap:12px; }
-.side-block{ background:var(--glass); padding:12px; border-radius:12px; border:1px solid rgba(255,255,255,0.02); }
-
-/* Card */
-.card{
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  border-radius:12px; overflow:hidden; border:1px solid rgba(255,255,255,0.03);
-  transition: transform .22s ease, box-shadow .22s ease;
-}
-.card:hover{ transform:translateY(-6px); box-shadow: 0 30px 80px rgba(10,12,30,0.6); }
-.card-img-wrap{ width:100%; height:170px; overflow:hidden; }
-.card-img{ width:100%; height:100%; object-fit:cover; display:block; transition: transform .4s ease; }
-.card-img:hover{ transform: scale(1.06); } /* ZOOM suave - Animação A */
-.card-body{ padding:12px; }
-.card-title{ font-size:16px; font-weight:700; color:#e9faff; margin-bottom:8px; }
-.card-excerpt{ color:var(--muted); font-size:14px; line-height:1.45; margin-bottom:10px; }
-
-/* Pills */
-.pills{ display:flex; gap:8px; flex-wrap:wrap; margin:6px 0 14px; }
-.pill{ padding:6px 10px; border-radius:999px; background:rgba(255,255,255,0.03); color:var(--muted); cursor:pointer; font-weight:700; border:1px solid rgba(255,255,255,0.02) }
-.pill.active{ background:linear-gradient(90deg,var(--accent-a),var(--accent-b)); color:#fff; box-shadow:0 12px 40px rgba(138,76,255,0.08) }
-
-/* Footer */
-.site-footer{ text-align:center; padding:26px 12px; color:#93a6d6; border-top:1px solid rgba(255,255,255,0.02); margin-top:26px }
-
-/* Responsive */
-@media (max-width:980px){
-  .grid{ grid-template-columns: 1fr; }
-  .hero { height:260px }
-  .hero-overlay{ left:18px; bottom:18px; max-width:86% }
-  .hero-title{ font-size:22px }
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="header-inner">
     <div class="brand">
       <img src="logo.png" alt="logo" class="logo" />
       <div class="title">WORLD NEWS</div>
     </div>
-
     <nav class="main-nav" aria-label="Seções">
-      <a class="nav-link" data-filter="all" href="#home">Início</a>
-      <a class="nav-link" data-filter="mundo" href="#mundo">Mundo</a>
-      <a class="nav-link" data-filter="futebol" href="#futebol">Futebol</a>
-      <a class="nav-link" data-filter="esportes" href="#esportes">Esportes</a>
-      <a class="nav-link" data-filter="politica" href="#politica">Política</a>
-      <a class="nav-link" data-filter="cultura" href="#cultura">Cultura</a>
+      <a class="nav-link active" data-filter="all" href="#">Início</a>
+      <a class="nav-link" data-filter="mundo" href="#">Mundo</a>
+      <a class="nav-link" data-filter="futebol" href="#">Futebol</a>
+      <a class="nav-link" data-filter="esportes" href="#">Esportes</a>
+      <a class="nav-link" data-filter="politica" href="#">Política</a>
+      <a class="nav-link" data-filter="cultura" href="#">Cultura</a>
     </nav>
   </div>
 </header>
 
 <main class="container">
-  <div id="top-warning" style="display:none;padding:10px;background:#561bff22;border-radius:8px;margin-bottom:12px;color:#dfeaff">Aviso: carregando notícias...</div>
+  <div id="top-warning" class="top-warning">Carregando notícias...</div>
 
   <div class="grid">
-    <div class="left-column" id="left-column">
-      <!-- cards serão renderizados aqui -->
-    </div>
+    <div class="left-column" id="left-column"></div>
 
     <aside class="sidebar" id="sidebar">
       <div class="side-block">
-        <h4 style="margin:0 0 8px 0;color:#eaf6ff">Últimas</h4>
+        <h4>Últimas</h4>
         <div id="latest-list"></div>
       </div>
-
       <div class="side-block">
-        <h4 style="margin:0 0 8px 0;color:#eaf6ff">Categorias</h4>
+        <h4>Categorias</h4>
         <div class="pills" id="pills"></div>
       </div>
     </aside>
@@ -170,163 +46,6 @@ body{
   <footer class="site-footer">WORLD NEWS © 2025 — Atualizado automaticamente</footer>
 </main>
 
-<script>
-/* Loader + render (usa noticias.json) */
-const PLACEHOLDER = "https://via.placeholder.com/1200x600?text=World+News";
-let ALL = [];
-
-function inferCategory(text){
-  text = (text||"").toLowerCase();
-  if(/futebol|gol|flamengo|vasco|corinthians|coritiba|athletic|jogo|seleção|seleçao|messi|neymar/i.test(text)) return "futebol";
-  if(/esporte|esportivo|olimp|campeonat|basquet|tenis|volley/i.test(text)) return "esportes";
-  if(/guerra|ataque|invasao|invasão|conflito|bombas|militar/i.test(text)) return "guerra";
-  if(/eleição|presid|parlamento|senado|ministro|polític|govern/i.test(text)) return "politica";
-  if(/filme|música|musica|festival|cultura|teatro|livro|artista/i.test(text)) return "cultura";
-  return "mundo";
-}
-
-function safe(v){ return v === null || v === undefined ? "" : v; }
-
-function createCardHTML(n){
-  const img = n.imagem || n.image || PLACEHOLDER;
-  const title = safe(n.titulo || n.title);
-  const desc = safe(n.descricao || n.description);
-  const url  = n.url || n.link || "#";
-  return `
-    <article class="card" role="article">
-      <a href="${url}" target="_blank" rel="noopener noreferrer" style="display:block;">
-        <div class="card-img-wrap"><img class="card-img" src="${img}" alt=""></div>
-      </a>
-      <div class="card-body">
-        <a href="${url}" target="_blank" rel="noopener noreferrer" class="card-title">${title}</a>
-        <div class="card-excerpt">${desc}</div>
-      </div>
-    </article>
-  `;
-}
-
-function renderAll(list){
-  ALL = list || [];
-  document.getElementById("left-column").innerHTML = "";
-  if(!ALL.length){
-    document.getElementById("left-column").innerHTML = `<div style="padding:24px;background:var(--glass);border-radius:12px;color:#ffdede">Nenhuma notícia disponível.</div>`;
-    return;
-  }
-
-  // Hero (primeiro item)
-  const first = ALL[0];
-  const heroHtml = `
-    <section class="hero" aria-hidden="false">
-      <img class="hero-img" src="${first.imagem||PLACEHOLDER}" alt="">
-      <div class="hero-overlay">
-        <div class="hero-category">${first.categoria || inferCategory(first.titulo)}</div>
-        <h1 class="hero-title">${first.titulo}</h1>
-        <div class="hero-desc">${(first.descricao||"").slice(0,240)}</div>
-      </div>
-    </section>
-  `;
-  // remove hero if exists then insert at top of left-column
-  const left = document.getElementById("left-column");
-  left.insertAdjacentHTML('beforeend', heroHtml);
-
-  // cards (restantes)
-  const rest = ALL.slice(1);
-  rest.forEach(item => left.insertAdjacentHTML('beforeend', createCardHTML(item)));
-
-  // latest in sidebar
-  const latest = document.getElementById("latest-list");
-  latest.innerHTML = "";
-  ALL.slice(0,6).forEach(it=>{
-    const a = document.createElement("a");
-    a.href = it.url || "#";
-    a.textContent = (it.titulo||"Sem título").slice(0,80);
-    a.style.display = "block"; a.style.color="#cfe9ff"; a.style.textDecoration="none"; a.style.marginBottom="8px";
-    a.target="_blank";
-    latest.appendChild(a);
-  });
-
-  // categories pills
-  const groups = groupByCategory(ALL);
-  const pills = document.getElementById("pills");
-  pills.innerHTML = "";
-  const cats = ["all", ...Object.keys(groups)];
-  cats.forEach(c=>{
-    const el = document.createElement("div");
-    el.className = "pill" + (c==="all"?" active":"");
-    el.textContent = c === "all" ? "Todos" : c.charAt(0).toUpperCase()+c.slice(1);
-    el.dataset.cat = c;
-    el.addEventListener("click", ()=> {
-      document.querySelectorAll(".pill").forEach(p=>p.classList.remove("active"));
-      el.classList.add("active");
-      if(c==="all") renderAll(ALL);
-      else filterCategory(c);
-    });
-    pills.appendChild(el);
-  });
-
-  // nav link handlers
-  document.querySelectorAll(".main-nav .nav-link").forEach(a=>{
-    a.classList.remove("active");
-    a.addEventListener("click", (ev)=>{
-      ev.preventDefault();
-      const f = a.dataset.filter;
-      document.querySelectorAll(".main-nav .nav-link").forEach(n=>n.classList.remove("active"));
-      a.classList.add("active");
-      if(!f || f==="all") renderAll(ALL);
-      else filterCategory(f);
-    });
-  });
-}
-
-function groupByCategory(list){
-  const g = {};
-  list.forEach(item=>{
-    const cat = (item.categoria || inferCategory(item.titulo || item.description || "")).toLowerCase();
-    if(!g[cat]) g[cat]=[];
-    g[cat].push(item);
-  });
-  return g;
-}
-
-function filterCategory(cat){
-  const filtered = ALL.filter(it => {
-    const c = (it.categoria || inferCategory(it.titulo || "")).toLowerCase();
-    return c === cat;
-  });
-  // scroll to top of left column
-  document.getElementById("left-column").scrollIntoView({behavior:"smooth", block:"start"});
-  // re-render: hero = first of filtered (if any)
-  if(filtered.length) renderAll(filtered.concat(ALL.slice( filtered.length ))); // keep rendering but show filtered at top
-  else renderAll([]);
-}
-
-/* Fetch noticias.json and render */
-(function(){
-  const warning = document.getElementById("top-warning"); warning.style.display = "block";
-  fetch("noticias.json")
-    .then(resp => {
-      if(!resp.ok) throw new Error("Arquivo noticias.json não encontrado");
-      return resp.json();
-    })
-    .then(data => {
-      warning.style.display = "none";
-      if(!Array.isArray(data)) throw new Error("Formato inválido, esperado array");
-      // normalize entries (ensure fields)
-      const normalized = data.map(d => ({
-        titulo: d.titulo || d.title || "",
-        descricao: d.descricao || d.description || "",
-        imagem: d.imagem || d.image || "",
-        url: d.url || d.link || "",
-        categoria: d.categoria || (d.title? null: null),
-        data: d.data || null,
-      }));
-      renderAll(normalized);
-    })
-    .catch(err => {
-      warning.textContent = "Erro ao carregar notícias: " + err.message;
-      console.error(err);
-    });
-})();
-</script>
+<script src="script.js"></script>
 </body>
 </html>
