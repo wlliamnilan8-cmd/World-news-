@@ -1,182 +1,378 @@
 [
     {
-        "titulo": "Bye-bye bots: Altera's game-playing AI agents get backing from Eric Schmidt | TechCrunch",
-        "descricao": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI Research company Altera raised $9 million to build AI agents that can play video games alongside other player…",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/Minecraft-keyart.jpg?resize=1200,720",
-        "link": "https://techcrunch.com/2024/05/08/bye-bye-bots-alteras-game-playing-ai-agents-get-backing-from-eric-schmidt/"
+        "article_id": "ce104c59fb7b0fb54377341cc9ddff4d",
+        "link": "https://valor.globo.com/politica/pergunte-aos-dados/post/2025/11/o-que-a-eleicao-no-chile-projeta-para-o-brasil.ghtml",
+        "title": "O que a eleição no Chile projeta para o Brasil",
+        "description": "A ultradireita que viceja na América Latina não v...",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+            "valor"
+        ],
+        "creator": null,
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "lifestyle",
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:50:34",
+        "pubDateTZ": "UTC",
+        "image_url": "https://s2-valor.glbimg.com/7EBWbn9jZGd-IGjtQsDeIUvIvho=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/u/m/tvd21CT9OjnSimbW3tOg/17int-100-chile-a19-img02.jpg",
+        "video_url": null,
+        "source_id": "valor_globo",
+        "source_name": "Valor Globo",
+        "source_priority": 2786,
+        "source_url": "https://valor.globo.com",
+        "source_icon": "https://n.bytvi.com/valor_globo.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "$450M for Noname, two billion-dollar rounds, and good news for crypto startups | TechCrunch",
-        "descricao": "This morning on Equity, not only do we have good news for crypto founders, we're also digging into Akamai spending $450 million for API security firm Noname, and billion dollar deals from Wiz and Wayve.",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-942480316.jpg?resize=1200,835",
-        "link": "https://techcrunch.com/2024/05/08/450m-for-noname-two-billion-dollar-rounds-and-good-news-for-crypto-startups/"
+        "article_id": "6279501a2fde2f4e4b737fa791634cab",
+        "link": "https://jc.uol.com.br/politica/2025/11/18/alepe-vota-aumento-das-emendas-parlamentares-de-09-para-155-das-receitas-correntes-liquidas-a-partir-de-2027.html",
+        "title": "Alepe vota aumento das emendas parlamentares de 0,9% para 1,55% das receitas correntes líquidas a partir de 2027",
+        "description": "Legislativo vota com urgência proposição que estabelece nova regra de transição para emendas: prevendo 0,9% da RCL em 2026 e 1,55% a partir de 2027",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+            "orçamento"
+        ],
+        "creator": [
+            "JC"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "top",
+            "business"
+        ],
+        "pubDate": "2025-11-18 04:39:25",
+        "pubDateTZ": "UTC",
+        "image_url": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2025/04/15/04_14_plenaria_nc_033-34307052.jpg",
+        "video_url": null,
+        "source_id": "jcne10uol",
+        "source_name": "Jc Notiacute",
+        "source_priority": 652888,
+        "source_url": "https://jc.ne10.uol.com.br",
+        "source_icon": "https://n.bytvi.com/jcne10uol.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "Watch: When did iPads get as expensive as MacBooks?",
-        "descricao": "Would you switch out your MacBook for an iPad with an M4 chip and OLED display? With the increase in price, Apple seems to be arguing these are comparable but we’re curious to see if consumers will make the change.",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/ipad-noplay.png?resize=1200,675",
-        "link": "https://techcrunch.com/2024/05/08/techcrunch-minute-when-did-ipads-get-as-expensive-as-macbooks/"
+        "article_id": "695d4d1d6302bc6c899093cf9a07bbb2",
+        "link": "https://br.investing.com/news/earnings/lucro-da-clearsign-veio-em-linha-com-as-projecoes-receita-menor-do-que-estimativas-1749173",
+        "title": "Lucro da ClearSign veio em linha com as projeções; receita menor do que estimativas",
+        "description": null,
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": null,
+        "creator": [
+            "Investing.com"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "entertainment",
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:17:11",
+        "pubDateTZ": "UTC",
+        "image_url": "https://i-invdn-com.investing.com/news/World_News_9_M_1440052127.jpg",
+        "video_url": null,
+        "source_id": "investing_br",
+        "source_name": "Investing Brasil",
+        "source_priority": 33451,
+        "source_url": "https://br.investing.com",
+        "source_icon": "https://n.bytvi.com/investing_br.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "Uber promises member exclusives as Uber One passes $1B run-rate | TechCrunch",
-        "descricao": "Uber plans to deliver more perks to Uber One members, like member-exclusive events, in a bid to gain more revenue through subscriptions.  “You will see",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1142304853-a.jpg?resize=1200,675",
-        "link": "https://techcrunch.com/2024/05/08/uber-promises-member-exclusives-as-uber-one-passes-1b-run-rate/"
+        "article_id": "8cf3bc97d504ecfcadb2140fe3284d3c",
+        "link": "https://psxbrasil.com.br/amazon-black-friday-2025/",
+        "title": "Amazon começa Black Friday 2025 com grande desconto no PS5, DualSense, jogos e muito mais",
+        "description": "A Amazon já começou as suas ofertas de Black Friday 2025 hoje (18). Aproveite os descontos sugeridos abaixo e não deixe de conferir todas as promoções das outras categorias no site: Esquenta Black Friday Amazon 2025 [CLIQUE AQUI] PS5 Edição Digital Acessórios Jogos",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+            "patrocinado",
+            "notícias",
+            "promoção"
+        ],
+        "creator": [
+            "Ivan Nikolai Barkow Castilho"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "lifestyle",
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:11:18",
+        "pubDateTZ": "UTC",
+        "image_url": "https://psxbrasil.com.br/wp-content/uploads/2025/01/blackfriday-ps4.jpg",
+        "video_url": null,
+        "source_id": "psxbrasil",
+        "source_name": "Psx Br",
+        "source_priority": 3592782,
+        "source_url": "https://psxbrasil.com.br",
+        "source_icon": "https://n.bytvi.com/psxbrasil.jpg",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "Checkfirst raises $1.5M pre-seed, applying AI to remote inspections and audits | TechCrunch",
-        "descricao": "Checkfirst enables businesses to schedule inspectors based on geographical location and qualifications, in addition to allowing for remote inspections.",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/Checkfirst-team.jpg?w=960",
-        "link": "https://techcrunch.com/2024/05/08/checkfirst-raises-1-5m-pre-seed-applying-ai-to-remote-inspections-and-audits/"
+        "article_id": "d688a367ae58f7027de192a4d6929baf",
+        "link": "https://www.mixvale.com.br/2025/11/18/a-chuva-leonidas-atinge-seu-pico-na-madrugada-do-dia-17-11-com-visibilidade-favorecida-pela-lua-minguante/",
+        "title": "A chuva Leônidas atinge seu pico na madrugada do dia 17/11 com visibilidade favorecida pela Lua minguante",
+        "description": "A chuva de meteoros Leônidas atinge seu pico de atividade na madrugada desta segunda-feira (17 de novembro de 2025), com taxa estimada de até ...",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+            "estrelas cadentes",
+            "meteoros de novembro",
+            "últimas notícias",
+            "ciência",
+            "leônidas 2025",
+            "pico leônidas",
+            "quando ver leônidas novembro de 2025",
+            "chuva de leônidas",
+            "melhor horário leônidas 17 de novembro",
+            ": chuva de meteoros leônidas 2025"
+        ],
+        "creator": [
+            "Redação"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "lifestyle",
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:09:25",
+        "pubDateTZ": "UTC",
+        "image_url": "https://www.mixvale.com.br/wp-content/uploads/2025/10/Chuva-de-meteoros-1.jpg",
+        "video_url": null,
+        "source_id": "mixvale",
+        "source_name": "Mix Vale",
+        "source_priority": 95409,
+        "source_url": "https://www.mixvale.com.br",
+        "source_icon": "https://n.bytvi.com/mixvale.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "UK challenger bank Monzo nabs another $190M as US expansion beckons | TechCrunch",
-        "descricao": "Monzo has raised another $190 million, as the challenger bank looks to expand its presence internationally — particularly in the U.S.",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1259121938-e1715164252704.jpg?resize=1200,676",
-        "link": "https://techcrunch.com/2024/05/08/uk-challenger-bank-monzo-nabs-another-190m-at-5-2b-valuation/"
+        "article_id": "6fed7da1215a267156dbefcdf949fa59",
+        "link": "https://br.investing.com/news/company-news/apollomics-nomeia-dra-yachi-huang-para-conselho-apos-renuncia-93CH-1749172",
+        "title": "Apollomics nomeia Dra. Ya-Chi Huang para conselho após renúncia",
+        "description": null,
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": null,
+        "creator": [
+            "Investing.com"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:06:37",
+        "pubDateTZ": "UTC",
+        "image_url": "https://i-invdn-com.investing.com/news/news_six_pile_108x81.jpg",
+        "video_url": null,
+        "source_id": "investing_br",
+        "source_name": "Investing Brasil",
+        "source_priority": 33451,
+        "source_url": "https://br.investing.com",
+        "source_icon": "https://n.bytvi.com/investing_br.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "iRobot names former Timex head Gary Cohen as CEO | TechCrunch",
-        "descricao": "iRobot Tuesday announced the successor to longtime CEO, Colin Angle. Gary Cohen, who previous held chief executive role at Timex and Qualitor Automotive,",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/Screenshot-2024-05-08-at-7.19.50 AM.jpg?resize=1200,919",
-        "link": "https://techcrunch.com/2024/05/08/irobot-names-former-timex-head-gary-cohen-as-ceo/"
+        "article_id": "24bd04079164026653b033d8d6ae2e8f",
+        "link": "https://br.investing.com/news/company-news/osi-systems-precifica-oferta-de-notas-conversiveis-de-us-500-milhoes-93CH-1749171",
+        "title": "OSI Systems precifica oferta de notas conversíveis de US$ 500 milhões",
+        "description": null,
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": null,
+        "creator": [
+            "Investing.com"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "top",
+            "business"
+        ],
+        "pubDate": "2025-11-18 04:06:29",
+        "pubDateTZ": "UTC",
+        "image_url": "https://i-invdn-com.investing.com/news/World_News_8_M_1440052125.jpg",
+        "video_url": null,
+        "source_id": "investing_br",
+        "source_name": "Investing Brasil",
+        "source_priority": 33451,
+        "source_url": "https://br.investing.com",
+        "source_icon": "https://n.bytvi.com/investing_br.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "Google Deepmind debuts huge AlphaFold update and free proteomics-as-a-service web app | TechCrunch",
-        "descricao": "Google Deepmind has taken the wraps off a new version AlphaFold, their transformative machine learning model that predicts the shape and behavior of",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/alphafold-3-deepmind.jpg?resize=1200,675",
-        "link": "https://techcrunch.com/2024/05/08/google-deepmind-debuts-huge-alphafold-update-and-free-proteomics-as-a-service-web-app/"
+        "article_id": "006cceb2a3706086dd264d56b0259ee3",
+        "link": "https://www.correiobraziliense.com.br/revista-do-correio/2025/11/7294693-horoscopo-do-dia-previsao-para-os-12-signos-em-18-11-2025.html",
+        "title": "Horoscopo Do Dia Previsao Para Os 12 Signos Em 18 11 2025",
+        "description": "Veja o que os astros revelam sobre a terça-feira de cada nativo do zodíaco",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+            "astrologia",
+            "signos",
+            "edicase",
+            "horóscopo",
+            "previsões"
+        ],
+        "creator": [
+            "Thaís Mariano"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "lifestyle",
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:04:58",
+        "pubDateTZ": "UTC",
+        "image_url": "https://midias.correiobraziliense.com.br/_midias/jpg/2025/11/18/675x450/1_shutterstock_2592693113-1-61027096.jpg?20251118010508%3F20251118010508=",
+        "video_url": null,
+        "source_id": "correiobraziliense",
+        "source_name": "Correio Braziliense",
+        "source_priority": 267296,
+        "source_url": "https://www.correiobraziliense.com.br",
+        "source_icon": "https://n.bytvi.com/correiobraziliense.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "Mycocycle uses mushrooms to upcycle old tires and construction waste | TechCrunch",
-        "descricao": "The startup's fungi use their mycelium to consume oil-based rubbers and plastics, creating new bio-based materials in the process.",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1350655821.jpeg?resize=1200,796",
-        "link": "https://techcrunch.com/2024/05/08/mycocycle-uses-mushrooms-to-upcycle-old-tires-and-construction-waste/"
+        "article_id": "d436b570ce0789441813f1f7a9d4d145",
+        "link": "https://oantagonista.com.br/ladooa/variedades/horoscopo-do-dia-previsao-para-os-12-signos-em-18-11-2025/",
+        "title": "Horóscopo do dia: previsão para os 12 signos em 18/11/2025",
+        "description": "Veja o que os astros revelam sobre a terça-feira de cada nativo do zodíacoThe post Horóscopo do dia: previsão para os 12 signos em 18/11/2025 appeared first on O Antagonista.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+            "variedades"
+        ],
+        "creator": [
+            "EdiCase"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "lifestyle",
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:04:51",
+        "pubDateTZ": "UTC",
+        "image_url": "https://cdn.oantagonista.com/uploads/2025/11/ariies-1024x683-1.jpg",
+        "video_url": null,
+        "source_id": "oantagonista",
+        "source_name": "O Antagonista",
+        "source_priority": 2104208,
+        "source_url": "https://www.oantagonista.com",
+        "source_icon": "https://n.bytvi.com/oantagonista.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     },
     {
-        "titulo": "Controversial drone company Xtend leans into defense with new $40M round | TechCrunch",
-        "descricao": "Xtend, a drone company heavily involved with defense customers, has raised a new round of capital to expand its operations.",
-        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/wildfire_drone_web.jpg?w=900",
-        "link": "https://techcrunch.com/2024/05/08/controversial-drone-company-xtend-leans-into-defense/"
-    },
-    {
-        "titulo": "Gerdau suspende operações no RS, berço da empresa, por causa das fortes chuvas",
-        "descricao": "Empresa diz que medida foi tomada para 'priorizar a proteção e a segurança das pessoas'",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/logo-gerdau.png?quality=70",
-        "link": "https://www.infomoney.com.br/business/gerdau-suspende-operacoes-no-rs-berco-da-empresa-por-causa-das-fortes-chuvas/"
-    },
-    {
-        "titulo": "RS contaliza 75 mortos, 839 mil casas sem água e 420 mil sem luz devido às chuvas",
-        "descricao": "Mais de 707 mil pessoas são afetadas pelo temporal histórico no estado",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/05/riograndedosul.webp?quality=70",
-        "link": "https://www.infomoney.com.br/politica/mortes-por-chuvas-no-rs-chegam-a-66-e-superam-tragedia-de-2023/"
-    },
-    {
-        "titulo": "Cotas de casas na praia e no campo: como ser 'dono' sem comprar imóvel por inteiro?",
-        "descricao": "Modelo compartilhada permite ao morador usufruir de diferentes locais sem precisar fazer manutenção ou decoração",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/casa-na-praia-ilha-grande-viagem.jpg?fit=900%2C602&quality=70&strip=all",
-        "link": "https://www.infomoney.com.br/minhas-financas/cotas-de-casas-na-praia-e-no-campo-como-ser-dono-sem-comprar-imovel-por-inteiro/"
-    },
-    {
-        "titulo": "Greves no setor público causam perdas bilionárias a empresas e setores inteiros",
-        "descricao": "Ao menos 15 categorias de funcionalismo têm movimentos em torno de reivindicações",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/04/grever_9.webp?fit=1024%2C768&quality=70&strip=all",
-        "link": "https://www.infomoney.com.br/business/greves-no-setor-publico-causam-perdas-bilionarias-a-empresas-e-setores-inteiros/"
-    },
-    {
-        "titulo": "Copom, IPCA e indústria no Brasil; dados da economia da China: o que olhar na semana",
-        "descricao": "Tudo o que o investidor precisa saber antes de operar na semana",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/agenda-investidores.png?fit=665%2C471&quality=70&strip=all",
-        "link": "https://www.infomoney.com.br/mercados/copom-ipca-e-industria-no-brasil-dados-da-economia-da-china-o-que-olhar-na-semana/"
-    },
-    {
-        "titulo": "Buffett sobre sucessor: Greg Abel tomará todas as decisões de investimentos",
-        "descricao": "\"Oráculo de Omaha\" enfatizou que futuro CEO da Berkshire não vai dividir responsabilidades sobre onde alocar os recursos",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/05/2024-05-03T221555Z_1168507916_RC26J7A3IORJ_RTRMADP_3_BERKSHIRE-BUFFETTx.jpg?quality=70",
-        "link": "https://www.infomoney.com.br/onde-investir/buffett-sobre-sucessor-greg-abel-tomara-todas-as-decisoes-de-investimentos/"
-    },
-    {
-        "titulo": "Warren Buffett vende ações da Apple e explica por que reduziu fatia em 13%",
-        "descricao": "Participação na gigante de tecnologia passou a US$ 135 bilhões em março; números foram divulgados antes da reunião anual, neste sábado (4)",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/02/408145403.jpg?quality=70",
-        "link": "https://www.infomoney.com.br/business/warren-buffett-vende-acoes-da-apple-e-reduz-fatia-em-13/"
-    },
-    {
-        "titulo": "Rede social tenta inovar com criptomoeda, mas preço colapsa 98% na estreia",
-        "descricao": "Projeto ambicioso que propõe a compra e venda de tokens ligados a influenciadores do X decepcionou na estreia e frustrou usuários",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/mercado-em-queda.jpg?fit=900%2C600&quality=70&strip=all",
-        "link": "https://www.infomoney.com.br/onde-investir/rede-social-tenta-inovar-com-criptomoeda-mas-preco-colapsa-98-na-estreia/"
-    },
-    {
-        "titulo": "Dividendos da semana: Eletrobras e Caixa Seguridade estão entre as empresas que pagam",
-        "descricao": "A agenda prevê ainda distribuições de nomes como JHSF, CSU Digital, Wilson Sons e Vamos",
-        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/12/eletrobras-native-1.jpg?fit=650%2C429&quality=70&strip=all",
-        "link": "https://www.infomoney.com.br/onde-investir/dividendos-da-semana-eletrobras-e-caixa-seguridade-estao-entre-as-empresas-que-pagam/"
-    },
-    {
-        "titulo": "AGORA: InfoMoney, AO VIVO, na Reunião Anual da Berkshire Hathaway 2024",
-        "descricao": "Neste sábado, a partir das 18h, o InfoMoney traz uma cobertura especial da reunião anual de acionistas da Berkshire Hathaway, do bilionário Warren Buffett. H...",
-        "imagem": "https://i.ytimg.com/vi/TAxbrJm215I/maxresdefault_live.jpg",
-        "link": "https://www.youtube.com/watch?v=TAxbrJm215I"
-    },
-    {
-        "titulo": "'Não há data para conversas com Brasil', diz porta-voz de Biden",
-        "descricao": "Em entrevista coletiva, Jen Psaki sinaliza que relação com o governo brasileiro não será prioridade para Washington nesse início de mandato",
-        "imagem": "https://ogimg.infoglobo.com.br/in/24848041-2b6-572/FT1086A/652/91281882_White-House-Press-Secretary-Jen-Psaki-takes-questions-from-journalists-in-the-James-S-B.jpg",
-        "link": "https://oglobo.globo.com/mundo/2273-nao-ha-data-para-conversas-com-brasil-diz-porta-voz-de-biden"
-    },
-    {
-        "titulo": "Botafogo 1 x 3 Atlético-GO - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
-        "descricao": "Campeonato Brasileiro, rodada 31 - veja os melhores momentos e saiba tudo sobre o jogo Botafogo 1 x 3 Atlético-GO: escalação, fotos, vídeos e lances da partida.",
-        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
-        "link": "https://globoesporte.globo.com/rj/futebol/brasileirao-serie-a/jogo/20-01-2021/botafogo-atletico-go.ghtml"
-    },
-    {
-        "titulo": "Bahia 1 x 0 Athletico-PR - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
-        "descricao": "Campeonato Brasileiro, rodada 31 - veja os melhores momentos e saiba tudo sobre o jogo Bahia 1 x 0 Athletico-PR: escalação, fotos, vídeos e lances da partida.",
-        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
-        "link": "https://globoesporte.globo.com/ba/futebol/brasileirao-serie-a/jogo/20-01-2021/bahia-atletico-pr.ghtml"
-    },
-    {
-        "titulo": "Coritiba 2 x 0 Fluminense - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
-        "descricao": "Campeonato Brasileiro, rodada 31 - acompanhe em tempo real tudo sobre o jogo Coritiba 2 x 0 Fluminense: escalação, fotos, vídeos e lances da partida.",
-        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
-        "link": "https://globoesporte.globo.com/pr/futebol/brasileirao-serie-a/jogo/20-01-2021/coritiba-fluminense.ghtml"
-    },
-    {
-        "titulo": "Cruzeiro  x  Operário-PR - Campeonato Brasileiro Série B rodada 36 - Tempo Real - Globo Esporte",
-        "descricao": "Campeonato Brasileiro Série B, rodada 36 - acompanhe em tempo real tudo sobre o jogo Cruzeiro  x  Operário-PR: escalação, fotos, vídeos e lances da partida.",
-        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
-        "link": "https://globoesporte.globo.com/mg/futebol/brasileirao-serie-b/jogo/20-01-2021/cruzeiro-operario-pr.ghtml"
-    },
-    {
-        "titulo": "Bragantino  x  Vasco - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
-        "descricao": "Campeonato Brasileiro, rodada 31 - acompanhe em tempo real tudo sobre o jogo Bragantino  x  Vasco: escalação, fotos, vídeos e lances da partida.",
-        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
-        "link": "https://globoesporte.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/20-01-2021/bragantino-vasco.ghtml"
-    },
-    {
-        "titulo": "Avião que transportava vacinas contra a Covid-19 faz curva errada e entra em rota de colisão com aeronave da Gol",
-        "descricao": "Jato do governo do Paraná saiu de Curitiba rumo a Londrina. Avião da Gol vinha de São Paulo. O governo do estado do Paraná classificou a ocorrência como 'incidente' e informou que a aeronave entrou em rota de colisão por conta do piloto automático. A FAB apur…",
-        "imagem": "https://s2.glbimg.com/72FqHE9EOVqSivtRTU89ZK60l3k=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/7/N/tWR2jzREAvjTDOprvDFA/q98a7354.jpg",
-        "link": "https://g1.globo.com/sp/sao-paulo/noticia/2021/01/20/aviao-que-transportava-vacinas-contra-a-covid-19-faz-curva-errada-e-entra-em-rota-de-colisao-com-aeronave-da-gol.ghtml"
-    },
-    {
-        "titulo": "Grêmio  x  Atlético-MG - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
-        "descricao": "Campeonato Brasileiro, rodada 31 - acompanhe em tempo real tudo sobre o jogo Grêmio  x  Atlético-MG: escalação, fotos, vídeos e lances da partida.",
-        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
-        "link": "https://globoesporte.globo.com/rs/futebol/brasileirao-serie-a/jogo/20-01-2021/gremio-atletico-mg.ghtml"
-    },
-    {
-        "titulo": "Brasil registra 1.382 mortes por Covid em 24 horas, recorde desde agosto, e soma 212,8 mil óbitos",
-        "descricao": "País contabilizou total de 212.893 óbitos e 8.639.868 casos de Covid-19, segundo balanço do consórcio de veículos de imprensa.",
-        "imagem": "https://s.glbimg.com/jo/g1/static/live/imagens/img_facebook.png",
-        "link": "https://g1.globo.com/bemestar/coronavirus/noticia/2021/01/20/casos-e-mortes-por-coronavirus-no-brasil-em-20-de-janeiro-segundo-consorcio-de-veiculos-de-imprensa.ghtml"
-    },
-    {
-        "titulo": "BBB21: veja a participação dos novos brothers em programas da Globo",
-        "descricao": "Confira alguns dos momentos em que os integrantes do Camarote estiveram na programação",
-        "imagem": "https://s2.glbimg.com/CF1dygFYeLqZnUi3yaIqu8T_25U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/q/V/LcF0xzTPKx4AT5IzqLHw/camarote.jpeg",
-        "link": "https://gshow.globo.com/realities/noticia/bbb21-veja-a-participacao-dos-novos-brothers-em-programas-da-globo.ghtml"
+        "article_id": "d013b00cd7247b36db7250dd15b0b2bb",
+        "link": "https://correiodoestado.com.br/correio-b/astral/confira-o-seu-horoscopo-de-hoje-1811-de-2025-leia-seu-signo/457664/",
+        "title": "Confira o seu horóscopo de hoje 18/11 de 2025. Leia seu signo",
+        "description": "1 – Áries: se você deseja um emprego temporário de Natal esse ano, já mande seus currículos para o comércio, que hoje mesmo você pode conseguir. Acenda incenso de musgo de carvalho para proteção. No amor: cuidado ao conhecer pessoas novas. Cor do dia: verde-musgo. Perfume do dia: musgo de carvalho.2 – Touro: dia agitado com conflitos na família e no trabalho. No amor: evite romances com leoninos. Se você é casado com algum leonino tenha cuidado, pois touro não combina com leão no amor. Acenda incenso de jasmim para proteção. Cor do dia: pérola. Perfume do dia: jasmim.3 – Gêmeos: hoje verá um parente de que você não gosta. Portanto, mantenha a calma. Acenda incenso de lavanda para manter a calma. No amor: cuidado com pessoas interesseiras. Cor do dia: lavanda. Perfume do dia: lavanda.4 – Câncer: evite discussões desnecessárias. Pois o dia exige memória e concentração no trabalho e na família. Se você é mãe, está na hora de levar os filhos ao médico para fazer consultas de rotina. Excelente dia fazer cirurgias e defumar a casa contra energias negativas. Cor do dia: marrom. Perfume do dia: qualquer aroma floral.5 – Leão: nessa terça-feira de Lua minguante, se você deseja largar algum vício, o dia ideal é hoje. Então procure ajuda imediatamente.Se você é mãe: cuidado com quem você coloca dentro de casa, fique de olho nos vizinhos e nos conteúdos que as crianças acessam no celular. Aliás, existem aplicativos permitem que as mães monitorem os celulares dos menores. Vale a pena tentar! Cor do dia: dourado. Perfume do dia: qualquer aroma frutal.6 – Virgem: hoje é o dia ideal para fazer banhos de limpeza energética, como por exemplo: banho das sete ervas ou de água azulada do pescoço para baixo.O problema é que você comanda grupos de voluntariado de forma louvável, mas infelizmente a sua pessoa forma panelinhas quando faz isso e dificilmente aceita novos membros. Essa atitude está sendo notada por pessoas influentes e está prejudicando a sua reputação. Cor do dia: bordô. Perfume do dia: patchuli.7 – Libra: cuidado ao usar celular na rua ou dentro do carro porque pode ser vítima de assalto. Hoje pode acontecer algum acidente automobilístico com qualquer tipo de automóvel.Tenha cuidado também ao atravessar a rua. Se você é mãe, também precisa comprar o presente de Natal das crianças agora para não ter problemas depois. Cor do dia: arco-íris. Perfume do dia: almíscar.8 – Escorpião: cuidado com compras pela Internet e também ao manusear Pix ou cartão de crédito. Pois tentarão dar o golpe. Não clique em qualquer link que aparecer na sua tela.Alguns familiares estão com dificuldades por causa de tragédias climáticas como por exemplo: tempestades, ventanias e enchentes. Talvez até você precise de ajuda nesse período. Cor do dia: celeste. Perfume do dia: qualquer aroma doce.9 – Sagitário: hora de cortar conversas com familiares narcisistas e tóxicos porque a Lua minguante, numa terça-feira, ajuda nisso. Não insista em falar com esses parentes novamente porque você se dará muito mal. Faça o tratamento de silêncio e evite contato. No amor: não guarde mágoa de ex. Cor do dia: bege. Perfume do dia: musk.10 - Capricórnio: organize as ideias e dê prioridade somente aos sonhos que são possíveis nesse momento. Se você é patrão e deseja demitir um funcionário que você julga desonesto, hoje é o melhor momento porque a Lua minguante ajuda nisso.Mas se você é colaborador e deseja pedir demissão, essa terça-feira é o dia ideal porque depois você encontrará um emprego muito melhor. Cor do dia: azul-marinho. Perfume do dia: almíscar.11 – Aquário: sua saúde não está recuperada totalmente. Portanto coma: sopa, canja de galinha, legumes e frutas. A insônia continua incomodando você.Portanto tome chá de erva-cidreira com camomila para dormir melhor. O método de contar carneiros e de ler livros antes de dormir funcionará com você. Cor do dia: anil. Perfume do dia: qualquer aroma amadeirado.12 – Peixes: hoje faça todos os rituais de banimentos possíveis, como: banhos de limpeza energética e defumações. Enquanto faz esses rituais cante a conhecida música: Vou banindo, que é facilmente encontrada em todas as plataformas. Mas não plante nada na Lua minguante. Cor do dia: laranja. Perfume do dia: sândalo.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+            "astral"
+        ],
+        "creator": [
+            "Luciana do rocio, colaboradora b+"
+        ],
+        "language": "portuguese",
+        "country": [
+            "brazil"
+        ],
+        "category": [
+            "lifestyle",
+            "top"
+        ],
+        "pubDate": "2025-11-18 04:02:00",
+        "pubDateTZ": "UTC",
+        "image_url": "https://cdn.correiodoestado.com.br/img/c/300/300/dn_arquivo/2025/01/horoscopo.jpg",
+        "video_url": null,
+        "source_id": "correiodoestado_br",
+        "source_name": "Correiodoestado Br",
+        "source_priority": 2029937,
+        "source_url": "https://correiodoestado.com.br",
+        "source_icon": "https://n.bytvi.com/correiodoestado_br.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
     }
 ]
