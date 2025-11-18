@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar repositório
+      - name: Checkout (com token para push)
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Instalar Python
         uses: actions/setup-python@v4
@@ -24,12 +26,14 @@ jobs:
       - name: Rodar gerador de notícias
         env:
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
-        run: python gerar_noticias.py
+        run: python .github/scripts/gerar_noticias.py
 
       - name: Commit e push das notícias
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+
+          git pull --rebase
 
           git add noticias.json
 
@@ -39,4 +43,4 @@ jobs:
           fi
 
           git commit -m "Atualização automática de notícias"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+          git push
