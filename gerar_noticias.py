@@ -4,7 +4,10 @@ import os
 
 API_KEY = os.getenv("NEWSAPI_KEY")
 
-url = f"https://newsapi.org/v2/top-headlines?language=pt&country=br&pageSize=100&apiKey={API_KEY}"
+# Fontes permitidas no plano gratuito
+fontes = "globo,uol,exame,info-money,techcrunch"
+
+url = f"https://newsapi.org/v2/top-headlines?sources={fontes}&pageSize=100&apiKey={API_KEY}"
 
 resp = requests.get(url)
 dados = resp.json()
@@ -23,4 +26,4 @@ for a in artigos:
 with open("noticias.json", "w", encoding="utf-8") as arq:
     json.dump(noticias_formatadas, arq, ensure_ascii=False, indent=4)
 
-print("Arquivo noticias.json atualizado.")
+print("Arquivo noticias.json atualizado com sucesso!")
