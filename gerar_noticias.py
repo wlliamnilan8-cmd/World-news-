@@ -10,7 +10,7 @@ params = {
     "apikey": API_KEY,
     "country": "br",
     "language": "pt",
-    "category": "top",
+    "category": "top"
 }
 
 def main():
