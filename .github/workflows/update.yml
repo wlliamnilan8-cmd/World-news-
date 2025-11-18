@@ -2,54 +2,34 @@ name: Atualizar Notícias
 
 on:
   schedule:
-    - cron: '0 * * * *'   # Roda 1 vez por hora
+    - cron: "0 */4 * * *"  # a cada 4 horas
   workflow_dispatch:
 
 jobs:
-  atualizar:
+  update-news:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar repositório
+      - name: Checkout
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # CORREÇÃO DO ERRO
-          repository: wlliamnilan8-cmd/World-news-
-          ssh-strict: true
-          persist-credentials: true
-          clean: true
-          sparse-checkout-cone-mode: true
-          fetch-depth: 1
-          fetch-tags: false
-          lfs: false
-          submodules: false
-          set-safe-directory: true
 
-      - name: Instalar Python
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Instalar dependências
         run: pip install requests
 
-      - name: Rodar gerador de notícias
+      - name: Executar script
         env:
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-        run: python gerar_noticias.py
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+        run: python .github/scripts/gerar_noticias.py
 
-      - name: Commit e push das notícias
+      - name: Commit & Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-
           git add noticias.json
-
-          # NÃO FAZ COMMIT SE NÃO HOUVER ALTERAÇÃO
-          if git diff --cached --quiet; then
-            echo "Nenhuma atualização encontrada."
-            exit 0
-          fi
-
-          git commit -m "Atualização automática de notícias"
+          git commit -m "Atualizando notícias via Newsdata.io" || echo "Nada novo para commitar"
           git push
