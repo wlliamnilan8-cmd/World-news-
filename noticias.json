@@ -1,1 +1,182 @@
-[]
+[
+    {
+        "titulo": "Bye-bye bots: Altera's game-playing AI agents get backing from Eric Schmidt | TechCrunch",
+        "descricao": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI Research company Altera raised $9 million to build AI agents that can play video games alongside other player…",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/Minecraft-keyart.jpg?resize=1200,720",
+        "link": "https://techcrunch.com/2024/05/08/bye-bye-bots-alteras-game-playing-ai-agents-get-backing-from-eric-schmidt/"
+    },
+    {
+        "titulo": "$450M for Noname, two billion-dollar rounds, and good news for crypto startups | TechCrunch",
+        "descricao": "This morning on Equity, not only do we have good news for crypto founders, we're also digging into Akamai spending $450 million for API security firm Noname, and billion dollar deals from Wiz and Wayve.",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-942480316.jpg?resize=1200,835",
+        "link": "https://techcrunch.com/2024/05/08/450m-for-noname-two-billion-dollar-rounds-and-good-news-for-crypto-startups/"
+    },
+    {
+        "titulo": "Watch: When did iPads get as expensive as MacBooks?",
+        "descricao": "Would you switch out your MacBook for an iPad with an M4 chip and OLED display? With the increase in price, Apple seems to be arguing these are comparable but we’re curious to see if consumers will make the change.",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/ipad-noplay.png?resize=1200,675",
+        "link": "https://techcrunch.com/2024/05/08/techcrunch-minute-when-did-ipads-get-as-expensive-as-macbooks/"
+    },
+    {
+        "titulo": "Uber promises member exclusives as Uber One passes $1B run-rate | TechCrunch",
+        "descricao": "Uber plans to deliver more perks to Uber One members, like member-exclusive events, in a bid to gain more revenue through subscriptions.  “You will see",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1142304853-a.jpg?resize=1200,675",
+        "link": "https://techcrunch.com/2024/05/08/uber-promises-member-exclusives-as-uber-one-passes-1b-run-rate/"
+    },
+    {
+        "titulo": "Checkfirst raises $1.5M pre-seed, applying AI to remote inspections and audits | TechCrunch",
+        "descricao": "Checkfirst enables businesses to schedule inspectors based on geographical location and qualifications, in addition to allowing for remote inspections.",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/Checkfirst-team.jpg?w=960",
+        "link": "https://techcrunch.com/2024/05/08/checkfirst-raises-1-5m-pre-seed-applying-ai-to-remote-inspections-and-audits/"
+    },
+    {
+        "titulo": "UK challenger bank Monzo nabs another $190M as US expansion beckons | TechCrunch",
+        "descricao": "Monzo has raised another $190 million, as the challenger bank looks to expand its presence internationally — particularly in the U.S.",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1259121938-e1715164252704.jpg?resize=1200,676",
+        "link": "https://techcrunch.com/2024/05/08/uk-challenger-bank-monzo-nabs-another-190m-at-5-2b-valuation/"
+    },
+    {
+        "titulo": "iRobot names former Timex head Gary Cohen as CEO | TechCrunch",
+        "descricao": "iRobot Tuesday announced the successor to longtime CEO, Colin Angle. Gary Cohen, who previous held chief executive role at Timex and Qualitor Automotive,",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/Screenshot-2024-05-08-at-7.19.50 AM.jpg?resize=1200,919",
+        "link": "https://techcrunch.com/2024/05/08/irobot-names-former-timex-head-gary-cohen-as-ceo/"
+    },
+    {
+        "titulo": "Google Deepmind debuts huge AlphaFold update and free proteomics-as-a-service web app | TechCrunch",
+        "descricao": "Google Deepmind has taken the wraps off a new version AlphaFold, their transformative machine learning model that predicts the shape and behavior of",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/alphafold-3-deepmind.jpg?resize=1200,675",
+        "link": "https://techcrunch.com/2024/05/08/google-deepmind-debuts-huge-alphafold-update-and-free-proteomics-as-a-service-web-app/"
+    },
+    {
+        "titulo": "Mycocycle uses mushrooms to upcycle old tires and construction waste | TechCrunch",
+        "descricao": "The startup's fungi use their mycelium to consume oil-based rubbers and plastics, creating new bio-based materials in the process.",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1350655821.jpeg?resize=1200,796",
+        "link": "https://techcrunch.com/2024/05/08/mycocycle-uses-mushrooms-to-upcycle-old-tires-and-construction-waste/"
+    },
+    {
+        "titulo": "Controversial drone company Xtend leans into defense with new $40M round | TechCrunch",
+        "descricao": "Xtend, a drone company heavily involved with defense customers, has raised a new round of capital to expand its operations.",
+        "imagem": "https://techcrunch.com/wp-content/uploads/2024/05/wildfire_drone_web.jpg?w=900",
+        "link": "https://techcrunch.com/2024/05/08/controversial-drone-company-xtend-leans-into-defense/"
+    },
+    {
+        "titulo": "Gerdau suspende operações no RS, berço da empresa, por causa das fortes chuvas",
+        "descricao": "Empresa diz que medida foi tomada para 'priorizar a proteção e a segurança das pessoas'",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/logo-gerdau.png?quality=70",
+        "link": "https://www.infomoney.com.br/business/gerdau-suspende-operacoes-no-rs-berco-da-empresa-por-causa-das-fortes-chuvas/"
+    },
+    {
+        "titulo": "RS contaliza 75 mortos, 839 mil casas sem água e 420 mil sem luz devido às chuvas",
+        "descricao": "Mais de 707 mil pessoas são afetadas pelo temporal histórico no estado",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/05/riograndedosul.webp?quality=70",
+        "link": "https://www.infomoney.com.br/politica/mortes-por-chuvas-no-rs-chegam-a-66-e-superam-tragedia-de-2023/"
+    },
+    {
+        "titulo": "Cotas de casas na praia e no campo: como ser 'dono' sem comprar imóvel por inteiro?",
+        "descricao": "Modelo compartilhada permite ao morador usufruir de diferentes locais sem precisar fazer manutenção ou decoração",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/casa-na-praia-ilha-grande-viagem.jpg?fit=900%2C602&quality=70&strip=all",
+        "link": "https://www.infomoney.com.br/minhas-financas/cotas-de-casas-na-praia-e-no-campo-como-ser-dono-sem-comprar-imovel-por-inteiro/"
+    },
+    {
+        "titulo": "Greves no setor público causam perdas bilionárias a empresas e setores inteiros",
+        "descricao": "Ao menos 15 categorias de funcionalismo têm movimentos em torno de reivindicações",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/04/grever_9.webp?fit=1024%2C768&quality=70&strip=all",
+        "link": "https://www.infomoney.com.br/business/greves-no-setor-publico-causam-perdas-bilionarias-a-empresas-e-setores-inteiros/"
+    },
+    {
+        "titulo": "Copom, IPCA e indústria no Brasil; dados da economia da China: o que olhar na semana",
+        "descricao": "Tudo o que o investidor precisa saber antes de operar na semana",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/agenda-investidores.png?fit=665%2C471&quality=70&strip=all",
+        "link": "https://www.infomoney.com.br/mercados/copom-ipca-e-industria-no-brasil-dados-da-economia-da-china-o-que-olhar-na-semana/"
+    },
+    {
+        "titulo": "Buffett sobre sucessor: Greg Abel tomará todas as decisões de investimentos",
+        "descricao": "\"Oráculo de Omaha\" enfatizou que futuro CEO da Berkshire não vai dividir responsabilidades sobre onde alocar os recursos",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/05/2024-05-03T221555Z_1168507916_RC26J7A3IORJ_RTRMADP_3_BERKSHIRE-BUFFETTx.jpg?quality=70",
+        "link": "https://www.infomoney.com.br/onde-investir/buffett-sobre-sucessor-greg-abel-tomara-todas-as-decisoes-de-investimentos/"
+    },
+    {
+        "titulo": "Warren Buffett vende ações da Apple e explica por que reduziu fatia em 13%",
+        "descricao": "Participação na gigante de tecnologia passou a US$ 135 bilhões em março; números foram divulgados antes da reunião anual, neste sábado (4)",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/02/408145403.jpg?quality=70",
+        "link": "https://www.infomoney.com.br/business/warren-buffett-vende-acoes-da-apple-e-reduz-fatia-em-13/"
+    },
+    {
+        "titulo": "Rede social tenta inovar com criptomoeda, mas preço colapsa 98% na estreia",
+        "descricao": "Projeto ambicioso que propõe a compra e venda de tokens ligados a influenciadores do X decepcionou na estreia e frustrou usuários",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/mercado-em-queda.jpg?fit=900%2C600&quality=70&strip=all",
+        "link": "https://www.infomoney.com.br/onde-investir/rede-social-tenta-inovar-com-criptomoeda-mas-preco-colapsa-98-na-estreia/"
+    },
+    {
+        "titulo": "Dividendos da semana: Eletrobras e Caixa Seguridade estão entre as empresas que pagam",
+        "descricao": "A agenda prevê ainda distribuições de nomes como JHSF, CSU Digital, Wilson Sons e Vamos",
+        "imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/12/eletrobras-native-1.jpg?fit=650%2C429&quality=70&strip=all",
+        "link": "https://www.infomoney.com.br/onde-investir/dividendos-da-semana-eletrobras-e-caixa-seguridade-estao-entre-as-empresas-que-pagam/"
+    },
+    {
+        "titulo": "AGORA: InfoMoney, AO VIVO, na Reunião Anual da Berkshire Hathaway 2024",
+        "descricao": "Neste sábado, a partir das 18h, o InfoMoney traz uma cobertura especial da reunião anual de acionistas da Berkshire Hathaway, do bilionário Warren Buffett. H...",
+        "imagem": "https://i.ytimg.com/vi/TAxbrJm215I/maxresdefault_live.jpg",
+        "link": "https://www.youtube.com/watch?v=TAxbrJm215I"
+    },
+    {
+        "titulo": "'Não há data para conversas com Brasil', diz porta-voz de Biden",
+        "descricao": "Em entrevista coletiva, Jen Psaki sinaliza que relação com o governo brasileiro não será prioridade para Washington nesse início de mandato",
+        "imagem": "https://ogimg.infoglobo.com.br/in/24848041-2b6-572/FT1086A/652/91281882_White-House-Press-Secretary-Jen-Psaki-takes-questions-from-journalists-in-the-James-S-B.jpg",
+        "link": "https://oglobo.globo.com/mundo/2273-nao-ha-data-para-conversas-com-brasil-diz-porta-voz-de-biden"
+    },
+    {
+        "titulo": "Botafogo 1 x 3 Atlético-GO - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
+        "descricao": "Campeonato Brasileiro, rodada 31 - veja os melhores momentos e saiba tudo sobre o jogo Botafogo 1 x 3 Atlético-GO: escalação, fotos, vídeos e lances da partida.",
+        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
+        "link": "https://globoesporte.globo.com/rj/futebol/brasileirao-serie-a/jogo/20-01-2021/botafogo-atletico-go.ghtml"
+    },
+    {
+        "titulo": "Bahia 1 x 0 Athletico-PR - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
+        "descricao": "Campeonato Brasileiro, rodada 31 - veja os melhores momentos e saiba tudo sobre o jogo Bahia 1 x 0 Athletico-PR: escalação, fotos, vídeos e lances da partida.",
+        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
+        "link": "https://globoesporte.globo.com/ba/futebol/brasileirao-serie-a/jogo/20-01-2021/bahia-atletico-pr.ghtml"
+    },
+    {
+        "titulo": "Coritiba 2 x 0 Fluminense - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
+        "descricao": "Campeonato Brasileiro, rodada 31 - acompanhe em tempo real tudo sobre o jogo Coritiba 2 x 0 Fluminense: escalação, fotos, vídeos e lances da partida.",
+        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
+        "link": "https://globoesporte.globo.com/pr/futebol/brasileirao-serie-a/jogo/20-01-2021/coritiba-fluminense.ghtml"
+    },
+    {
+        "titulo": "Cruzeiro  x  Operário-PR - Campeonato Brasileiro Série B rodada 36 - Tempo Real - Globo Esporte",
+        "descricao": "Campeonato Brasileiro Série B, rodada 36 - acompanhe em tempo real tudo sobre o jogo Cruzeiro  x  Operário-PR: escalação, fotos, vídeos e lances da partida.",
+        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
+        "link": "https://globoesporte.globo.com/mg/futebol/brasileirao-serie-b/jogo/20-01-2021/cruzeiro-operario-pr.ghtml"
+    },
+    {
+        "titulo": "Bragantino  x  Vasco - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
+        "descricao": "Campeonato Brasileiro, rodada 31 - acompanhe em tempo real tudo sobre o jogo Bragantino  x  Vasco: escalação, fotos, vídeos e lances da partida.",
+        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
+        "link": "https://globoesporte.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/20-01-2021/bragantino-vasco.ghtml"
+    },
+    {
+        "titulo": "Avião que transportava vacinas contra a Covid-19 faz curva errada e entra em rota de colisão com aeronave da Gol",
+        "descricao": "Jato do governo do Paraná saiu de Curitiba rumo a Londrina. Avião da Gol vinha de São Paulo. O governo do estado do Paraná classificou a ocorrência como 'incidente' e informou que a aeronave entrou em rota de colisão por conta do piloto automático. A FAB apur…",
+        "imagem": "https://s2.glbimg.com/72FqHE9EOVqSivtRTU89ZK60l3k=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/7/N/tWR2jzREAvjTDOprvDFA/q98a7354.jpg",
+        "link": "https://g1.globo.com/sp/sao-paulo/noticia/2021/01/20/aviao-que-transportava-vacinas-contra-a-covid-19-faz-curva-errada-e-entra-em-rota-de-colisao-com-aeronave-da-gol.ghtml"
+    },
+    {
+        "titulo": "Grêmio  x  Atlético-MG - Campeonato Brasileiro rodada 31 - Tempo Real - Globo Esporte",
+        "descricao": "Campeonato Brasileiro, rodada 31 - acompanhe em tempo real tudo sobre o jogo Grêmio  x  Atlético-MG: escalação, fotos, vídeos e lances da partida.",
+        "imagem": "https://s2.glbimg.com/0kGRfPsY_U02n0jSMGzxqF4j-64=/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/L/p/FUZ5KSSoWB7tQxZ6FviA/preview-share-2x.png",
+        "link": "https://globoesporte.globo.com/rs/futebol/brasileirao-serie-a/jogo/20-01-2021/gremio-atletico-mg.ghtml"
+    },
+    {
+        "titulo": "Brasil registra 1.382 mortes por Covid em 24 horas, recorde desde agosto, e soma 212,8 mil óbitos",
+        "descricao": "País contabilizou total de 212.893 óbitos e 8.639.868 casos de Covid-19, segundo balanço do consórcio de veículos de imprensa.",
+        "imagem": "https://s.glbimg.com/jo/g1/static/live/imagens/img_facebook.png",
+        "link": "https://g1.globo.com/bemestar/coronavirus/noticia/2021/01/20/casos-e-mortes-por-coronavirus-no-brasil-em-20-de-janeiro-segundo-consorcio-de-veiculos-de-imprensa.ghtml"
+    },
+    {
+        "titulo": "BBB21: veja a participação dos novos brothers em programas da Globo",
+        "descricao": "Confira alguns dos momentos em que os integrantes do Camarote estiveram na programação",
+        "imagem": "https://s2.glbimg.com/CF1dygFYeLqZnUi3yaIqu8T_25U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/q/V/LcF0xzTPKx4AT5IzqLHw/camarote.jpeg",
+        "link": "https://gshow.globo.com/realities/noticia/bbb21-veja-a-participacao-dos-novos-brothers-em-programas-da-globo.ghtml"
+    }
+]
