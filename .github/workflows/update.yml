@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout com token
+      - name: Checkout
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # <--- TOKEN EXPLÍCITO
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Instalar Python
@@ -24,7 +24,7 @@ jobs:
       - name: Instalar dependências
         run: pip install requests
 
-      - name: Rodar gerador de notícias
+      - name: Rodar gerador
         env:
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
         run: python .github/scripts/gerar_noticias.py
