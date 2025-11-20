@@ -7,44 +7,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="site-header">
-  <div class="header-inner">
-    <div class="brand">
-      <img src="logo.png" alt="logo" class="logo" />
-      <div class="title">WORLD NEWS</div>
-    </div>
-    <nav class="main-nav" aria-label="Seções">
-      <a class="nav-link active" data-filter="all" href="#">Início</a>
-      <a class="nav-link" data-filter="mundo" href="#">Mundo</a>
-      <a class="nav-link" data-filter="futebol" href="#">Futebol</a>
-      <a class="nav-link" data-filter="esportes" href="#">Esportes</a>
-      <a class="nav-link" data-filter="politica" href="#">Política</a>
-      <a class="nav-link" data-filter="cultura" href="#">Cultura</a>
-    </nav>
+
+<header class="header-glass">
+  <div class="brand">
+    <img src="logo.png" class="logo">
+    <h1>WORLD NEWS</h1>
   </div>
+
+  <nav class="menu">
+    <button data-filter="all" class="active">Início</button>
+    <button data-filter="mundo">Mundo</button>
+    <button data-filter="politica">Política</button>
+    <button data-filter="esportes">Esportes</button>
+    <button data-filter="futebol">Futebol</button>
+    <button data-filter="cultura">Cultura</button>
+  </nav>
 </header>
 
 <main class="container">
-  <div id="top-warning" class="top-warning">Carregando notícias...</div>
-
-  <div class="grid">
-    <div class="left-column" id="left-column"></div>
-
-    <aside class="sidebar" id="sidebar">
-      <div class="side-block">
-        <h4>Últimas</h4>
-        <div id="latest-list"></div>
-      </div>
-      <div class="side-block">
-        <h4>Categorias</h4>
-        <div class="pills" id="pills"></div>
-      </div>
-    </aside>
-  </div>
-
-  <footer class="site-footer">WORLD NEWS © 2025 — Atualizado automaticamente</footer>
+  <div id="noticias-container" class="grid"></div>
 </main>
+
+<footer class="footer-glass">
+  WORLD NEWS © 2025 — Atualizado automaticamente
+</footer>
 
 <script src="script.js"></script>
 </body>
