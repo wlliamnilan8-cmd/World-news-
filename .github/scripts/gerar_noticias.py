@@ -7,33 +7,29 @@ NEWS_API_KEY = os.getenv("NEWSDATA_API_KEY")
 def fetch_news():
     print("Iniciando coleta Newsdata.io...")
 
-    base_url = "https://newsdata.io/api/1/news"
-    params = {
-        "apikey": NEWS_API_KEY,
-        "country": "br",
-        "language": "pt",
-        "category": "top",
-        "page": 0
-    }
-
-    # construir URL manualmente
-    url = base_url + "?" + "&".join(f"{k}={v}" for k, v in params.items())
+    url = (
+        "https://newsdata.io/api/1/news"
+        f"?apikey={NEWS_API_KEY}&country=br&language=pt&category=top"
+    )
 
     print("GET", url)
 
-    response = requests.get(url)
+    try:
+        response = requests.get(url)
+    except Exception as e:
+        print("❌ Erro ao conectar à API:", e)
+        return []
 
-    # API retornou erro 4xx ou 5xx
     if response.status_code != 200:
-        print("❌ Erro da API:", response.status_code, response.text)
+        print("❌ API retornou erro:", response.status_code, response.text)
         return []
 
     data = response.json()
 
-    # se "results" não for lista → devolveu erro interno
+    # "results" pode ser qualquer coisa → garantir lista
     results = data.get("results", [])
     if not isinstance(results, list):
-        print("⚠️ API devolveu formato inesperado:", results)
+        print("⚠️ 'results' não é lista:", results)
         return []
 
     return results
@@ -44,9 +40,9 @@ def normalize(results):
 
     for r in results:
 
-        # se a API devolveu string, número, None... ignorar
+        # ignorar qualquer item inválido
         if not isinstance(r, dict):
-            print("⚠️ Item ignorado (não é objeto):", r)
+            print("⚠️ Ignorando item inválido:", r)
             continue
 
         noticias.append({
@@ -66,7 +62,7 @@ def save_json(noticias):
         with open("noticias.json", "w", encoding="utf-8") as f:
             json.dump(noticias, f, ensure_ascii=False, indent=4)
 
-        print("✔ noticias.json atualizado com sucesso!")
+        print("✔ noticias.json salvo com sucesso!")
 
     except Exception as e:
         print("❌ Erro ao salvar noticias.json:", e)
@@ -74,15 +70,10 @@ def save_json(noticias):
 
 def main():
     if not NEWS_API_KEY:
-        print("❌ ERRO: NEWSDATA_API_KEY não encontrado nos secrets!")
+        print("❌ ERRO: NEWSDATA_API_KEY não existe nos secrets!")
         return
 
     results = fetch_news()
-    if not results:
-        print("⚠ Nenhuma notícia válida encontrada.")
-        save_json([])  # grava arquivo vazio para evitar erros no site
-        return
-
     noticias = normalize(results)
     save_json(noticias)
 
